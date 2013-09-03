@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad
 {
-    stringArray = [[NSArray alloc] initWithObjects:@"Hello", @"Goodbye", @"Mickey", @"Minnie", @"Donald", @"Goofy", @"Happy", @"Sleepy", @"Sneezy", @"MisterToad", @"MegaMan", nil];
+    stringArray = [[NSMutableArray alloc] initWithObjects:@"Hello", @"Goodbye", @"Mickey", @"Minnie", @"Donald", @"Goofy", @"Happy", @"Sleepy", @"Sneezy", @"MisterToad", @"MegaMan", nil];
+    
+    [tableView setEditing:true];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +36,11 @@
     return [stringArray count];
 }
 
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewCellEditingStyleDelete;
+}
+
 - (UITableViewCell *) tableView:(UITableView *)tableView2 cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -49,6 +56,11 @@
     
     return cell;
 
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"row=%d name = %@", indexPath.row, [stringArray objectAtIndex:indexPath.row]);
 }
 
 @end
