@@ -8,10 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate>
 {
-    IBOutlet UITableView *tableView;
+    IBOutlet UITableView *myTableView;
+    IBOutlet UIButton *edit;
     
     NSMutableArray *stringArray;
+    NSMutableArray *locationsArray;
+    NSMutableArray *imageArray;
+    NSMutableArray *infoArray;
 }
+
+@property (nonatomic, retain) UIButton *edit;
+
+- (IBAction)onClick:(id)sender;
+
+
 @end
