@@ -32,7 +32,7 @@
 		3F8BE5FC17D94316007971A3 /* obs19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE5E817D94316007971A3 /* obs19.png */; };
 		3F8BE5FE17DA9B9B007971A3 /* obs.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE5FD17DA9B9B007971A3 /* obs.png */; };
 		3F8BE60217DA9C35007971A3 /* obs114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE60117DA9C35007971A3 /* obs114.png */; };
-		3F8BE60417DA9DC4007971A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE60317DA9DC4007971A3 /* Default.png */; };
+		3F8BE60617DAA771007971A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8BE60517DAA771007971A3 /* Default.png */; };
 		3F94BC4817D6385500F168A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F94BC4717D6385500F168A0 /* UIKit.framework */; };
 		3F94BC4A17D6385500F168A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F94BC4917D6385500F168A0 /* Foundation.framework */; };
 		3F94BC4C17D6385500F168A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F94BC4B17D6385500F168A0 /* CoreGraphics.framework */; };
@@ -75,7 +75,7 @@
 		3F8BE5E817D94316007971A3 /* obs19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obs19.png; sourceTree = "<group>"; };
 		3F8BE5FD17DA9B9B007971A3 /* obs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obs.png; path = ../obs.png; sourceTree = "<group>"; };
 		3F8BE60117DA9C35007971A3 /* obs114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obs114.png; path = ../obs114.png; sourceTree = "<group>"; };
-		3F8BE60317DA9DC4007971A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../Default.png; sourceTree = "<group>"; };
+		3F8BE60517DAA771007971A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F94BC4417D6385500F168A0 /* Observatories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Observatories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F94BC4717D6385500F168A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F94BC4917D6385500F168A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -188,7 +188,7 @@
 				3F94BC5017D6385500F168A0 /* InfoPlist.strings */,
 				3F94BC5317D6385500F168A0 /* main.m */,
 				3F94BC5517D6385500F168A0 /* Observatories-Prefix.pch */,
-				3F8BE60317DA9DC4007971A3 /* Default.png */,
+				3F8BE60517DAA771007971A3 /* Default.png */,
 				3F94BC5B17D6385500F168A0 /* Default@2x.png */,
 				3F94BC5D17D6385500F168A0 /* Default-568h@2x.png */,
 			);
@@ -276,7 +276,7 @@
 				3F8BE5FC17D94316007971A3 /* obs19.png in Resources */,
 				3F8BE5FE17DA9B9B007971A3 /* obs.png in Resources */,
 				3F8BE60217DA9C35007971A3 /* obs114.png in Resources */,
-				3F8BE60417DA9DC4007971A3 /* Default.png in Resources */,
+				3F8BE60617DAA771007971A3 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
