@@ -127,9 +127,12 @@
 }
 
 
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"row = %d name = %@", indexPath.row, [stringArray objectAtIndex:indexPath.row]);
+    
+    
     
     // handle SecondViewController here
     SecondViewController *secondView = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
