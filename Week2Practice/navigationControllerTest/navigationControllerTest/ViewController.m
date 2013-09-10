@@ -7,12 +7,24 @@
 //
 
 #import "ViewController.h"
+#import "SecondView.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+-(IBAction)onClick:(id)sender
+{
+    // create secondView controller
+    SecondView *secondView = [[SecondView alloc] initWithNibName:@"SecondView" bundle:nil];
+    if (secondView != nil)
+    {
+        // move to secondView controller
+        [self.navigationController pushViewController:secondView animated:true];
+    }
+}
 
 - (void)viewDidLoad
 {

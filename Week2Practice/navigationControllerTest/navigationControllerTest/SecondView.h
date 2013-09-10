@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondView.h
 //  navigationControllerTest
 //
 //  Created by Wesley Seago on 9/10/13.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SecondView : UIViewController
 {
     
 }
 
--(IBAction)onClick:(id)sender;
+-(IBAction)onBack:(id)sender;
 
 @end
