@@ -17,15 +17,22 @@
 		3F07FAB517DF578700D0FD8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB417DF578700D0FD8A /* Default@2x.png */; };
 		3F07FAB717DF578700D0FD8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB617DF578700D0FD8A /* Default-568h@2x.png */; };
 		3F07FABA17DF578700D0FD8A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07FAB917DF578700D0FD8A /* FirstViewController.m */; };
-		3F07FABC17DF578700D0FD8A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FABB17DF578700D0FD8A /* first.png */; };
 		3F07FABE17DF578700D0FD8A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FABD17DF578700D0FD8A /* first@2x.png */; };
 		3F07FAC117DF578700D0FD8A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07FAC017DF578700D0FD8A /* SecondViewController.m */; };
-		3F07FAC317DF578700D0FD8A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC217DF578700D0FD8A /* second.png */; };
 		3F07FAC517DF578700D0FD8A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC417DF578700D0FD8A /* second@2x.png */; };
 		3F07FAC817DF578700D0FD8A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC617DF578700D0FD8A /* FirstViewController.xib */; };
 		3F07FACB17DF578700D0FD8A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC917DF578700D0FD8A /* SecondViewController.xib */; };
 		3F07FAD617DF5AC800D0FD8A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07FAD417DF5AC800D0FD8A /* ThirdViewController.m */; };
 		3F07FAD717DF5AC800D0FD8A /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAD517DF5AC800D0FD8A /* ThirdViewController.xib */; };
+		3F07FADD17DF6AE100D0FD8A /* ebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FADC17DF6AE100D0FD8A /* ebook.png */; };
+		3F07FADF17DF6B4800D0FD8A /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FADE17DF6B4800D0FD8A /* about.png */; };
+		3F07FAE117DF6BC700D0FD8A /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE017DF6BC700D0FD8A /* home1.png */; };
+		3F07FAE517DF6E4F00D0FD8A /* FirstChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07FAE317DF6E4F00D0FD8A /* FirstChildViewController.m */; };
+		3F07FAE617DF6E4F00D0FD8A /* FirstChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE417DF6E4F00D0FD8A /* FirstChildViewController.xib */; };
+		3F07FAEA17DF6E6600D0FD8A /* SecondChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F07FAE817DF6E6600D0FD8A /* SecondChildViewController.m */; };
+		3F07FAEB17DF6E6600D0FD8A /* SecondChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE917DF6E6600D0FD8A /* SecondChildViewController.xib */; };
+		3F4A336117DF83C200BE0BFA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A335F17DF83C200BE0BFA /* TableViewController.m */; };
+		3F4A336217DF83C200BE0BFA /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A336017DF83C200BE0BFA /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,17 +51,27 @@
 		3F07FAB617DF578700D0FD8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F07FAB817DF578700D0FD8A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		3F07FAB917DF578700D0FD8A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3F07FABB17DF578700D0FD8A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		3F07FABD17DF578700D0FD8A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		3F07FABF17DF578700D0FD8A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3F07FAC017DF578700D0FD8A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3F07FAC217DF578700D0FD8A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		3F07FAC417DF578700D0FD8A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		3F07FAC717DF578700D0FD8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
 		3F07FACA17DF578700D0FD8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 		3F07FAD317DF5AC800D0FD8A /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		3F07FAD417DF5AC800D0FD8A /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		3F07FAD517DF5AC800D0FD8A /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		3F07FADC17DF6AE100D0FD8A /* ebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ebook.png; sourceTree = "<group>"; };
+		3F07FADE17DF6B4800D0FD8A /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		3F07FAE017DF6BC700D0FD8A /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
+		3F07FAE217DF6E4F00D0FD8A /* FirstChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstChildViewController.h; sourceTree = "<group>"; };
+		3F07FAE317DF6E4F00D0FD8A /* FirstChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstChildViewController.m; sourceTree = "<group>"; };
+		3F07FAE417DF6E4F00D0FD8A /* FirstChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstChildViewController.xib; sourceTree = "<group>"; };
+		3F07FAE717DF6E6600D0FD8A /* SecondChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondChildViewController.h; sourceTree = "<group>"; };
+		3F07FAE817DF6E6600D0FD8A /* SecondChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondChildViewController.m; sourceTree = "<group>"; };
+		3F07FAE917DF6E6600D0FD8A /* SecondChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondChildViewController.xib; sourceTree = "<group>"; };
+		3F4A335E17DF83C200BE0BFA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3F4A335F17DF83C200BE0BFA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3F4A336017DF83C200BE0BFA /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +118,16 @@
 		3F07FAA617DF578700D0FD8A /* ProjectTwo */ = {
 			isa = PBXGroup;
 			children = (
+				3F07FAE017DF6BC700D0FD8A /* home1.png */,
+				3F07FADE17DF6B4800D0FD8A /* about.png */,
+				3F07FADC17DF6AE100D0FD8A /* ebook.png */,
 				3F07FAAF17DF578700D0FD8A /* AppDelegate.h */,
 				3F07FAB017DF578700D0FD8A /* AppDelegate.m */,
 				3F07FAB817DF578700D0FD8A /* FirstViewController.h */,
 				3F07FAB917DF578700D0FD8A /* FirstViewController.m */,
-				3F07FABB17DF578700D0FD8A /* first.png */,
 				3F07FABD17DF578700D0FD8A /* first@2x.png */,
 				3F07FABF17DF578700D0FD8A /* SecondViewController.h */,
 				3F07FAC017DF578700D0FD8A /* SecondViewController.m */,
-				3F07FAC217DF578700D0FD8A /* second.png */,
 				3F07FAC417DF578700D0FD8A /* second@2x.png */,
 				3F07FAC617DF578700D0FD8A /* FirstViewController.xib */,
 				3F07FAC917DF578700D0FD8A /* SecondViewController.xib */,
@@ -117,6 +135,15 @@
 				3F07FAD317DF5AC800D0FD8A /* ThirdViewController.h */,
 				3F07FAD417DF5AC800D0FD8A /* ThirdViewController.m */,
 				3F07FAD517DF5AC800D0FD8A /* ThirdViewController.xib */,
+				3F07FAE217DF6E4F00D0FD8A /* FirstChildViewController.h */,
+				3F07FAE317DF6E4F00D0FD8A /* FirstChildViewController.m */,
+				3F07FAE417DF6E4F00D0FD8A /* FirstChildViewController.xib */,
+				3F07FAE717DF6E6600D0FD8A /* SecondChildViewController.h */,
+				3F07FAE817DF6E6600D0FD8A /* SecondChildViewController.m */,
+				3F07FAE917DF6E6600D0FD8A /* SecondChildViewController.xib */,
+				3F4A335E17DF83C200BE0BFA /* TableViewController.h */,
+				3F4A335F17DF83C200BE0BFA /* TableViewController.m */,
+				3F4A336017DF83C200BE0BFA /* TableViewController.xib */,
 			);
 			path = ProjectTwo;
 			sourceTree = "<group>";
@@ -190,13 +217,17 @@
 				3F07FAB317DF578700D0FD8A /* Default.png in Resources */,
 				3F07FAB517DF578700D0FD8A /* Default@2x.png in Resources */,
 				3F07FAB717DF578700D0FD8A /* Default-568h@2x.png in Resources */,
-				3F07FABC17DF578700D0FD8A /* first.png in Resources */,
 				3F07FABE17DF578700D0FD8A /* first@2x.png in Resources */,
-				3F07FAC317DF578700D0FD8A /* second.png in Resources */,
 				3F07FAC517DF578700D0FD8A /* second@2x.png in Resources */,
 				3F07FAC817DF578700D0FD8A /* FirstViewController.xib in Resources */,
 				3F07FACB17DF578700D0FD8A /* SecondViewController.xib in Resources */,
 				3F07FAD717DF5AC800D0FD8A /* ThirdViewController.xib in Resources */,
+				3F07FADD17DF6AE100D0FD8A /* ebook.png in Resources */,
+				3F07FADF17DF6B4800D0FD8A /* about.png in Resources */,
+				3F07FAE117DF6BC700D0FD8A /* home1.png in Resources */,
+				3F07FAE617DF6E4F00D0FD8A /* FirstChildViewController.xib in Resources */,
+				3F07FAEB17DF6E6600D0FD8A /* SecondChildViewController.xib in Resources */,
+				3F4A336217DF83C200BE0BFA /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +243,9 @@
 				3F07FABA17DF578700D0FD8A /* FirstViewController.m in Sources */,
 				3F07FAC117DF578700D0FD8A /* SecondViewController.m in Sources */,
 				3F07FAD617DF5AC800D0FD8A /* ThirdViewController.m in Sources */,
+				3F07FAE517DF6E4F00D0FD8A /* FirstChildViewController.m in Sources */,
+				3F07FAEA17DF6E6600D0FD8A /* SecondChildViewController.m in Sources */,
+				3F4A336117DF83C200BE0BFA /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +376,7 @@
 				3F07FAD017DF578700D0FD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

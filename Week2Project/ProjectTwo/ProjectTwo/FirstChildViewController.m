@@ -1,26 +1,24 @@
 //
-//  ThirdViewController.m
+//  FirstChildViewController.m
 //  ProjectTwo
 //
 //  Created by Wesley Seago on 9/10/13.
 //  Copyright (c) 2013 Wesley Seago. All rights reserved.
 //
 
-#import "ThirdViewController.h"
+#import "FirstChildViewController.h"
 
-@interface ThirdViewController ()
+@interface FirstChildViewController ()
 
 @end
 
-@implementation ThirdViewController
+@implementation FirstChildViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.title = NSLocalizedString(@"About", @"Third");
-        self.tabBarItem.image = [UIImage imageNamed:@"about"];
     }
     return self;
 }

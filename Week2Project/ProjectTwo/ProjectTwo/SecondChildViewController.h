@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondChildViewController.h
 //  ProjectTwo
 //
 //  Created by Wesley Seago on 9/10/13.
@@ -8,12 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-{
-    
-}
-
--(IBAction)onClick2D:(id)sender;
--(IBAction)onClick3D:(id)sender;
+@interface SecondChildViewController : UIViewController
 
 @end
