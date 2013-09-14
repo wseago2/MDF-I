@@ -10,4 +10,6 @@
 
 @interface FirstChildViewController : UIViewController
 
+-(IBAction)onClick2D:(id)sender;
+
 @end

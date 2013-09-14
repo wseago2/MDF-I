@@ -39,21 +39,12 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)onClick2D:(id)sender
+-(IBAction)onClick3D:(id)sender
 {
     FirstChildViewController *firstChild = [[FirstChildViewController alloc] initWithNibName:@"FirstChildViewController" bundle:nil];
     if (firstChild != nil)
     {
         [self.navigationController pushViewController:firstChild animated:true];
-    }
-}
-
--(IBAction)onClick3D:(id)sender
-{
-    SecondChildViewController *secondChild = [[SecondChildViewController alloc] initWithNibName:@"SecondChildViewController" bundle:nil];
-    if (secondChild != nil)
-    {
-        [self.navigationController pushViewController:secondChild animated:true];
     }
 }
 

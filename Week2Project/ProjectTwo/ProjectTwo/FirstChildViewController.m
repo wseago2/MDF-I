@@ -7,6 +7,7 @@
 //
 
 #import "FirstChildViewController.h"
+#import "SecondChildViewController.h"
 
 @interface FirstChildViewController ()
 
@@ -33,6 +34,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)onClick2D:(id)sender
+{
+    SecondChildViewController *secondChild = [[SecondChildViewController alloc] initWithNibName:@"SecondChildViewController" bundle:nil];
+    if (secondChild != nil)
+    {
+        [self.navigationController pushViewController:secondChild animated:true];
+    }
 }
 
 @end

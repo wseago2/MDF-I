@@ -14,6 +14,8 @@
 
 @implementation TableViewController
 
+@synthesize detailName, bookName, authorName, location, info;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -33,6 +35,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)onBack:(id)sender
+{
+    [self dismissViewControllerAnimated:true completion:nil];
 }
 
 @end

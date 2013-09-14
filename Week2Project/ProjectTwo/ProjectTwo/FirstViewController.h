@@ -13,7 +13,6 @@
     
 }
 
--(IBAction)onClick2D:(id)sender;
 -(IBAction)onClick3D:(id)sender;
 
 @end

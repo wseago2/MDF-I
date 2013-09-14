@@ -11,5 +11,9 @@
 @interface SecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (copy, nonatomic) NSArray *ebooks;
+@property (copy, nonatomic) NSArray *bookName;
+@property (copy, nonatomic) NSArray *authorName;
+@property (copy, nonatomic) NSArray *location;
+@property (copy, nonatomic) NSArray *info;
 
 @end
