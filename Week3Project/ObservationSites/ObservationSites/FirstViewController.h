@@ -7,14 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "MyMapAnnotation.h"
 
 @interface FirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
     
-    IBOutlet UITableView *tourSiteTableView;
+    IBOutlet UITableView *siteTableView;
+    IBOutlet UIButton *edit;
+    //IBOutlet UIButton *doneButton;
+    
+    MyMapAnnotation *title;
+    MyMapAnnotation *coord;
     
 }
 
-@property (copy, nonatomic) NSArray *darkSites;
+-(IBAction)onClick:(id)sender;
+
+@property CLLocationCoordinate2D *coordinates;
+@property UIButton *edit;
 
 @end

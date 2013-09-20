@@ -7,12 +7,22 @@
 //
 
 #import "TableViewController.h"
+#import "MyMapAnnotation.h"
+#import <MapKit/MapKit.h>
 
 @interface TableViewController ()
 
 @end
 
 @implementation TableViewController
+
+@synthesize latitude;
+@synthesize longitude;
+@synthesize siteLocation;
+@synthesize siteName;
+@synthesize siteLabel;
+@synthesize siteInfo;
+@synthesize nameOfSite;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,21 +37,29 @@
 {
     // create default span and zoom level
     MKCoordinateSpan span;
-    span.latitudeDelta = 1.0f;
-    span.longitudeDelta = 1.0f;
-    
-    CLLocationCoordinate2D location;
-    location.latitude = 28.55f;
-    location.longitude = -81.33f;
+    span.latitudeDelta = 4.0f;
+    span.longitudeDelta = 4.0f;
     
     MKCoordinateRegion region;
-    region.center = location;
+    region.center = siteLocation;
     region.span = span;
+    mapView1.region = region;
     
-    mapView.region = region;
+    siteLabel.text = [NSString stringWithFormat:@"%@", nameOfSite];
+    latText.text = [NSString stringWithFormat:@"Latitude %f", siteLocation.latitude];
+    longText.text = [NSString stringWithFormat:@"Longitude %f", siteLocation.longitude];
     
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    MyMapAnnotation *mapAnnotations = [[MyMapAnnotation alloc] initWithTitle:nameOfSite coord:siteLocation];
+    if (mapAnnotations != nil)
+    {
+        [mapView1 addAnnotation:mapAnnotations];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,9 +68,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 -(IBAction)onClick:(id)sender
 {
+    UIButton *button = (UIButton *)sender;
+    if (button != nil)
+    {
+        
     [self dismissViewControllerAnimated:true completion:nil];
+        
+    }
 }
 
 @end

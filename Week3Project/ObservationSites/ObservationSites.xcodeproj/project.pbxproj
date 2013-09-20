@@ -13,8 +13,6 @@
 		3F5EB32117E8A8DC00F5D897 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB31F17E8A8DC00F5D897 /* InfoPlist.strings */; };
 		3F5EB32317E8A8DC00F5D897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB32217E8A8DC00F5D897 /* main.m */; };
 		3F5EB32717E8A8DC00F5D897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB32617E8A8DC00F5D897 /* AppDelegate.m */; };
-		3F5EB32917E8A8DC00F5D897 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB32817E8A8DC00F5D897 /* Default.png */; };
-		3F5EB32B17E8A8DC00F5D897 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB32A17E8A8DC00F5D897 /* Default@2x.png */; };
 		3F5EB32D17E8A8DC00F5D897 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB32C17E8A8DC00F5D897 /* Default-568h@2x.png */; };
 		3F5EB33017E8A8DC00F5D897 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB32F17E8A8DC00F5D897 /* FirstViewController.m */; };
 		3F5EB33217E8A8DC00F5D897 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB33117E8A8DC00F5D897 /* first.png */; };
@@ -27,6 +25,15 @@
 		3F5EB34A17E8C96100F5D897 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB34817E8C96100F5D897 /* TableViewController.m */; };
 		3F5EB34B17E8C96100F5D897 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB34917E8C96100F5D897 /* TableViewController.xib */; };
 		3F5EB34D17E8CC4E00F5D897 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5EB34C17E8CC4E00F5D897 /* MapKit.framework */; };
+		3F5EB35017E8E1C000F5D897 /* MyMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB34F17E8E1C000F5D897 /* MyMapAnnotation.m */; };
+		3F5EB35317E8E21700F5D897 /* SiteInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB35217E8E21700F5D897 /* SiteInformation.m */; };
+		3F5EB35617E8E24B00F5D897 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EB35517E8E24B00F5D897 /* DataManager.m */; };
+		3F5EB35A17EB96D400F5D897 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB35917EB96D400F5D897 /* about.png */; };
+		3F5EB35C17EB970400F5D897 /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB35B17EB970400F5D897 /* home1.png */; };
+		3F5EB36217EBD2EC00F5D897 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB36117EBD2EC00F5D897 /* default.png */; };
+		3F5EB36417EBD2F500F5D897 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB36317EBD2F500F5D897 /* default@2x.png */; };
+		3F5EB36617EBD33300F5D897 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB36517EBD33300F5D897 /* icon.png */; };
+		3F5EB36817EBD33A00F5D897 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EB36717EBD33A00F5D897 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +47,6 @@
 		3F5EB32417E8A8DC00F5D897 /* ObservationSites-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObservationSites-Prefix.pch"; sourceTree = "<group>"; };
 		3F5EB32517E8A8DC00F5D897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F5EB32617E8A8DC00F5D897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F5EB32817E8A8DC00F5D897 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3F5EB32A17E8A8DC00F5D897 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F5EB32C17E8A8DC00F5D897 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F5EB32E17E8A8DC00F5D897 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		3F5EB32F17E8A8DC00F5D897 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -57,6 +62,18 @@
 		3F5EB34817E8C96100F5D897 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		3F5EB34917E8C96100F5D897 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		3F5EB34C17E8CC4E00F5D897 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F5EB34E17E8E1C000F5D897 /* MyMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMapAnnotation.h; path = ../MyMapAnnotation.h; sourceTree = "<group>"; };
+		3F5EB34F17E8E1C000F5D897 /* MyMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMapAnnotation.m; path = ../MyMapAnnotation.m; sourceTree = "<group>"; };
+		3F5EB35117E8E21700F5D897 /* SiteInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteInformation.h; path = ../SiteInformation.h; sourceTree = "<group>"; };
+		3F5EB35217E8E21700F5D897 /* SiteInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteInformation.m; path = ../SiteInformation.m; sourceTree = "<group>"; };
+		3F5EB35417E8E24B00F5D897 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = ../DataManager.h; sourceTree = "<group>"; };
+		3F5EB35517E8E24B00F5D897 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = ../DataManager.m; sourceTree = "<group>"; };
+		3F5EB35917EB96D400F5D897 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		3F5EB35B17EB970400F5D897 /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
+		3F5EB36117EBD2EC00F5D897 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		3F5EB36317EBD2F500F5D897 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		3F5EB36517EBD33300F5D897 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3F5EB36717EBD33A00F5D897 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +94,8 @@
 		3F5EB30A17E8A8DC00F5D897 = {
 			isa = PBXGroup;
 			children = (
+				3F5EB36717EBD33A00F5D897 /* icon@2x.png */,
+				3F5EB36517EBD33300F5D897 /* icon.png */,
 				3F5EB31C17E8A8DC00F5D897 /* ObservationSites */,
 				3F5EB31517E8A8DC00F5D897 /* Frameworks */,
 				3F5EB31417E8A8DC00F5D897 /* Products */,
@@ -105,6 +124,14 @@
 		3F5EB31C17E8A8DC00F5D897 /* ObservationSites */ = {
 			isa = PBXGroup;
 			children = (
+				3F5EB35B17EB970400F5D897 /* home1.png */,
+				3F5EB35917EB96D400F5D897 /* about.png */,
+				3F5EB35417E8E24B00F5D897 /* DataManager.h */,
+				3F5EB35517E8E24B00F5D897 /* DataManager.m */,
+				3F5EB35117E8E21700F5D897 /* SiteInformation.h */,
+				3F5EB35217E8E21700F5D897 /* SiteInformation.m */,
+				3F5EB34F17E8E1C000F5D897 /* MyMapAnnotation.m */,
+				3F5EB34E17E8E1C000F5D897 /* MyMapAnnotation.h */,
 				3F5EB32517E8A8DC00F5D897 /* AppDelegate.h */,
 				3F5EB32617E8A8DC00F5D897 /* AppDelegate.m */,
 				3F5EB32E17E8A8DC00F5D897 /* FirstViewController.h */,
@@ -128,12 +155,12 @@
 		3F5EB31D17E8A8DC00F5D897 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F5EB36317EBD2F500F5D897 /* default@2x.png */,
+				3F5EB36117EBD2EC00F5D897 /* default.png */,
 				3F5EB31E17E8A8DC00F5D897 /* ObservationSites-Info.plist */,
 				3F5EB31F17E8A8DC00F5D897 /* InfoPlist.strings */,
 				3F5EB32217E8A8DC00F5D897 /* main.m */,
 				3F5EB32417E8A8DC00F5D897 /* ObservationSites-Prefix.pch */,
-				3F5EB32817E8A8DC00F5D897 /* Default.png */,
-				3F5EB32A17E8A8DC00F5D897 /* Default@2x.png */,
 				3F5EB32C17E8A8DC00F5D897 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
@@ -191,8 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5EB32117E8A8DC00F5D897 /* InfoPlist.strings in Resources */,
-				3F5EB32917E8A8DC00F5D897 /* Default.png in Resources */,
-				3F5EB32B17E8A8DC00F5D897 /* Default@2x.png in Resources */,
 				3F5EB32D17E8A8DC00F5D897 /* Default-568h@2x.png in Resources */,
 				3F5EB33217E8A8DC00F5D897 /* first.png in Resources */,
 				3F5EB33417E8A8DC00F5D897 /* first@2x.png in Resources */,
@@ -201,6 +226,12 @@
 				3F5EB33E17E8A8DC00F5D897 /* FirstViewController.xib in Resources */,
 				3F5EB34117E8A8DC00F5D897 /* SecondViewController.xib in Resources */,
 				3F5EB34B17E8C96100F5D897 /* TableViewController.xib in Resources */,
+				3F5EB35A17EB96D400F5D897 /* about.png in Resources */,
+				3F5EB35C17EB970400F5D897 /* home1.png in Resources */,
+				3F5EB36217EBD2EC00F5D897 /* default.png in Resources */,
+				3F5EB36417EBD2F500F5D897 /* default@2x.png in Resources */,
+				3F5EB36617EBD33300F5D897 /* icon.png in Resources */,
+				3F5EB36817EBD33A00F5D897 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +247,9 @@
 				3F5EB33017E8A8DC00F5D897 /* FirstViewController.m in Sources */,
 				3F5EB33717E8A8DC00F5D897 /* SecondViewController.m in Sources */,
 				3F5EB34A17E8C96100F5D897 /* TableViewController.m in Sources */,
+				3F5EB35017E8E1C000F5D897 /* MyMapAnnotation.m in Sources */,
+				3F5EB35317E8E21700F5D897 /* SiteInformation.m in Sources */,
+				3F5EB35617E8E24B00F5D897 /* DataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
